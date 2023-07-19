@@ -12,4 +12,3 @@ In order to use the code please for your projects please use the following steps
 4. In order to preprocess this raw dataset please select from the functions available and add them to the preprocessing parameters in the run_pipeline code.
 5. In order to add new models please place the new model architecture in the file Model_Architectures/Model.py. Then make sure to specify the model name in the run_pipiline parameters class.
 
-6. For libraries dependencies please check out the .yaml file
