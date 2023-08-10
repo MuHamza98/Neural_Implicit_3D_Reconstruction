@@ -51,7 +51,7 @@ def generate(model, dataloader, gen_params, num_steps = 10):
 
         # CREATE UNFIRMLY DISTRIBUTED POINTS
 
-        samples = torch.rand(1, sample_num, 3).float().to(device) * 3 - 0.5 # points in between 0.5 and -0.5 
+        samples = torch.rand(1, sample_num, 3).float().to(device) * 0.8 - 0.4 # points in between 0.5 and -0.5 
         samples.requires_grad = True
 
 
